@@ -1,10 +1,25 @@
-# [Backstage](https://backstage.io)
+# 💿 Backstage Compilation
 
-This is your newly scaffolded Backstage App, Good Luck!
+<table>
+<tr><td>Title:</td><td>Best of Plugins</td></tr>
+<tr><td>Artist:</td><td>Various Artists</td></tr>
+<tr><td>First release:</td><td>2025</td></tr>
+<tr><td>Included plugins:</td><td>TBD</td></tr>
+</table>
 
-To start the app, run:
+## Included plugins
 
-```sh
-yarn install
-yarn start
-```
+* Core Backstage Plugins
+
+  1. Home
+  1. Catalog
+  1. Search
+  1. Scaffolder
+  1. Kubernetes
+  1. Techdocs
+  1. API
+
+* Backstage Community Plugins
+
+  8. Announcements
+  1. asd
