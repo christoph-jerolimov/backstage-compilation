@@ -1,5 +1,5 @@
 app:
-  title: Scaffolded Backstage App
+  title: Demo Backstage App
   baseUrl: http://localhost:3000
 
   # Enable all packages by default, this will discover packages from packages/app/package.json
@@ -7,19 +7,18 @@ app:
 
   extensions:
     # Disable the nav items that we're manually rendering in packages/app/src/modules/nav/Sidebar.tsx
+    - nav-item:home: false
+    - nav-item:catalog: false
     - nav-item:search: false
     - nav-item:user-settings: false
-    - nav-item:catalog: false
-    - nav-item:scaffolder: false
 
     # Configure the catalog index page to be the root page, this is normally mounted on /catalog
-    - page:catalog:
-        config:
-          path: /
-
+    # - page:catalog:
+    #     config:
+    #       path: /
 
 organization:
-  name: My Company
+  name: Demo
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
