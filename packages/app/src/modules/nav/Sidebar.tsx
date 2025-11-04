@@ -9,12 +9,16 @@ import {
 import { compatWrapper } from '@backstage/core-compat-api';
 import { Sidebar } from '@backstage/core-components';
 import { NavContentBlueprint } from '@backstage/frontend-plugin-api';
-import { SidebarLogo } from './SidebarLogo';
+
+import { SidebarSearchModal } from '@backstage/plugin-search';
+import { NotificationsSidebarItem } from '@backstage/plugin-notifications';
+import { UserSettingsSignInAvatar, Settings as SettingsSidebarItem } from '@backstage/plugin-user-settings';
+
 import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import { SidebarSearchModal } from '@backstage/plugin-search';
-import { UserSettingsSignInAvatar, Settings as SidebarSettings } from '@backstage/plugin-user-settings';
+
+import { SidebarLogo } from './SidebarLogo';
 
 export const SidebarContent = NavContentBlueprint.make({
   params: {
@@ -46,7 +50,8 @@ export const SidebarContent = NavContentBlueprint.make({
             icon={<UserSettingsSignInAvatar />}
             to="/settings"
           >
-            <SidebarSettings />
+            <NotificationsSidebarItem />
+            <SettingsSidebarItem />
           </SidebarGroup>
         </Sidebar>,
       ),

@@ -95,6 +95,7 @@ Wheel of names
 | MCP Actions | planned |
 | MCP chat | planned |
 | Nexus | planned |
+| Notifications | included |
 | npm | included |
 | Playlist | planned |
 | Quay | planned |
