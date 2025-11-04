@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bookmarks-example
+  bookmarks:
+    'Cool link': https://example.com/cool-link
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+    

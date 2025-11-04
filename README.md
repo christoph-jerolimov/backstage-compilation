@@ -76,7 +76,7 @@ Wheel of names
 | Announcements | planned |
 | Badges | planned |
 | BitBucket | planned |
-| Bookmarks | planned |
+| Bookmarks | included |
 | CI/CD stats | planned |
 | Code Climate | planned |
 | Code Coverage | planned |
@@ -87,7 +87,7 @@ Wheel of names
 | GoCD | planned |
 | Google Calendar | planned |
 | Grafana | planned |
-| Home | planned |
+| Home | included |
 | Jenkins | planned |
 | Jira both | planned |
 | Kubernetes | planned |
@@ -95,7 +95,7 @@ Wheel of names
 | MCP Actions | planned |
 | MCP chat | planned |
 | Nexus | planned |
-| npm | planned |
+| npm | included |
 | Playlist | planned |
 | Quay | planned |
 | RBAC | planned |

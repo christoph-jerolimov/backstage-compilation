@@ -119,6 +119,11 @@ catalog:
     #   rules:
     #     - allow: [User, Group]
 
+    # bookmarks plugin
+    - type: file
+      target: ../../examples/bookmarks-example.yaml
+
+    # npm plugin
     - type: url
       target: https://github.com/backstage/community-plugins/blob/main/workspaces/npm/examples/npmjs-examples.yaml
       rules:
