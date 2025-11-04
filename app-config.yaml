@@ -119,8 +119,16 @@ catalog:
     #   rules:
     #     - allow: [User, Group]
 
+    - type: url
+      target: https://github.com/backstage/community-plugins/blob/main/workspaces/npm/examples/npmjs-examples.yaml
+      rules:
+        - allow: [System, Component]
+
 kubernetes:
   # see https://backstage.io/docs/features/kubernetes/configuration for kubernetes configuration options
+
+npm:
+  defaultRegistry: npmjs
 
 # see https://backstage.io/docs/permissions/getting-started for more on the permission framework
 permission:

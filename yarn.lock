@@ -1654,6 +1654,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-npm-backend@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "@backstage-community/plugin-npm-backend@npm:1.13.0"
+  dependencies:
+    "@backstage-community/plugin-npm-common": "npm:^1.13.0"
+    "@backstage/backend-defaults": "npm:^0.13.0"
+    "@backstage/backend-plugin-api": "npm:^1.4.4"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/plugin-catalog-node": "npm:^1.19.1"
+    express: "npm:^4.17.1"
+    express-promise-router: "npm:^4.1.0"
+  checksum: 10c0/a97927a6b8f81111127a12fa7666f5cdd7465070e1df5fabdcedf1d2926914775e33c11b45c47b99417506b5799fd83b9b12ce45ed97d57145ffb30aef9be259
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-npm-common@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "@backstage-community/plugin-npm-common@npm:1.13.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/errors": "npm:^1.2.7"
+  checksum: 10c0/98b4fda189190f79beac065e1dfa23956dca5273eba5aeb065decc39d13f84e3c5ebdbda796c792fcd4b9c12db8cb81dd6c2f306bb636e01c435c06e5c5a005c
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-npm@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "@backstage-community/plugin-npm@npm:1.13.0"
+  dependencies:
+    "@backstage-community/plugin-npm-common": "npm:^1.13.0"
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/core-components": "npm:^0.18.2"
+    "@backstage/core-plugin-api": "npm:^1.11.1"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.12.1"
+    "@backstage/plugin-catalog-react": "npm:^1.21.2"
+    "@backstage/theme": "npm:^0.7.0"
+    "@material-ui/core": "npm:^4.9.13"
+    luxon: "npm:^3.5.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/ce1bb4afd9ea8ee744991fab1e48c28d26f8315a7a9b2f29f068d6ba7ae661918ef668fa72f633edf034a15318c43d0249c1970fa2d1677d61a56fb33ee70ee5
+  languageName: node
+  linkType: hard
+
 "@backstage/backend-app-api@npm:^1.2.8":
   version: 1.2.8
   resolution: "@backstage/backend-app-api@npm:1.2.8"
@@ -11663,6 +11709,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
+    "@backstage-community/plugin-npm": "npm:^1.13.0"
     "@backstage/cli": "npm:^0.34.4"
     "@backstage/core-compat-api": "npm:^0.5.3"
     "@backstage/core-components": "npm:^0.18.2"
@@ -12244,6 +12291,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:packages/backend"
   dependencies:
+    "@backstage-community/plugin-npm-backend": "npm:^1.13.0"
     "@backstage/backend-defaults": "npm:^0.13.0"
     "@backstage/cli": "npm:^0.34.4"
     "@backstage/config": "npm:^1.3.5"
@@ -20349,7 +20397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.0.0, luxon@npm:^3.2.1, luxon@npm:^3.4.3":
+"luxon@npm:^3.0.0, luxon@npm:^3.2.1, luxon@npm:^3.4.3, luxon@npm:^3.5.0":
   version: 3.7.2
   resolution: "luxon@npm:3.7.2"
   checksum: 10c0/ed8f0f637826c08c343a29dd478b00628be93bba6f068417b1d8896b61cb61c6deacbe1df1e057dbd9298334044afa150f9aaabbeb3181418ac8520acfdc2ae2
