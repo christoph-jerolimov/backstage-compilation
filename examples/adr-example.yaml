@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adr-example
+  annotations:
+    backstage.io/adr-location: https://github.com/adr/madr/tree/develop/docs/decisions
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest

@@ -119,6 +119,10 @@ catalog:
     #   rules:
     #     - allow: [User, Group]
 
+    # adr plugin
+    - type: file
+      target: ../../examples/adr-example.yaml
+
     # bookmarks plugin
     - type: file
       target: ../../examples/bookmarks-example.yaml
