@@ -73,7 +73,7 @@ Wheel of names
 | Full playlist | Status |
 | ------------- | ------ |
 | ADR | included |
-| Announcements | planned |
+| Announcements | included |
 | Badges | planned |
 | BitBucket | planned |
 | Bookmarks | included |

@@ -67,6 +67,10 @@ backend.add(import('@backstage/plugin-signals-backend'));
 backend.add(import('@backstage-community/plugin-adr-backend'));
 backend.add(import('@backstage-community/search-backend-module-adr'));
 
+// announcements plugin
+backend.add(import('@backstage-community/plugin-announcements-backend'));
+backend.add(import('@backstage-community/plugin-search-backend-module-announcements'));
+
 // npm plugin
 backend.add(import('@backstage-community/plugin-npm-backend'));
 
