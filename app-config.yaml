@@ -133,6 +133,10 @@ catalog:
       rules:
         - allow: [System, Component]
 
+    # todo plugin
+    - type: file
+      target: ../../examples/todo-example.yaml
+
 kubernetes:
   # see https://backstage.io/docs/features/kubernetes/configuration for kubernetes configuration options
 

@@ -1911,6 +1911,48 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-todo-backend@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@backstage-community/plugin-todo-backend@npm:0.14.0"
+  dependencies:
+    "@backstage/backend-defaults": "npm:^0.13.0"
+    "@backstage/backend-openapi-utils": "npm:^0.6.2"
+    "@backstage/backend-plugin-api": "npm:^1.4.4"
+    "@backstage/catalog-client": "npm:^1.12.0"
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/config": "npm:^1.3.5"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/integration": "npm:^1.18.1"
+    "@backstage/plugin-catalog-node": "npm:^1.19.1"
+    "@types/express": "npm:^4.17.6"
+    express: "npm:^4.17.1"
+    leasot: "npm:^12.0.0"
+    yn: "npm:^4.0.0"
+  checksum: 10c0/ab94dd63a2c8ac43d17ef9a44adab25fad9655fdbd06b20933c5194f003da4409332ff277bd2294e5f7fe42fc771c4fc47960621f08fcd154c8dc9a5225efe0c
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-todo@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@backstage-community/plugin-todo@npm:0.13.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/core-compat-api": "npm:^0.5.3"
+    "@backstage/core-components": "npm:^0.18.2"
+    "@backstage/core-plugin-api": "npm:^1.11.1"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.12.1"
+    "@backstage/plugin-catalog-react": "npm:^1.21.2"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@types/react": "npm:^16.13.1 || ^17.0.0"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/b5922eb2e2848112ffa70726d17b1dc626c4a82dcc1720502ff6470b22812388d285f5c19a8a1a1a51e2cfa97eb7f21d0385ff98264b8f5f252f22e1b85ba2cf
+  languageName: node
+  linkType: hard
+
 "@backstage-community/search-backend-module-adr@npm:^0.12.0":
   version: 0.12.0
   resolution: "@backstage-community/search-backend-module-adr@npm:0.12.0"
@@ -12287,6 +12329,7 @@ __metadata:
     "@backstage-community/plugin-announcements": "npm:^0.16.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.4.3"
     "@backstage-community/plugin-npm": "npm:^1.13.0"
+    "@backstage-community/plugin-todo": "npm:^0.13.0"
     "@backstage/cli": "npm:^0.34.4"
     "@backstage/core-compat-api": "npm:^0.5.3"
     "@backstage/core-components": "npm:^0.18.2"
@@ -12638,7 +12681,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^3.2.3, async@npm:^3.2.4, async@npm:^3.2.6":
+"async@npm:^3.2.0, async@npm:^3.2.3, async@npm:^3.2.4, async@npm:^3.2.6":
   version: 3.2.6
   resolution: "async@npm:3.2.6"
   checksum: 10c0/36484bb15ceddf07078688d95e27076379cc2f87b10c03b6dd8a83e89475a3c8df5848859dd06a4c95af1e4c16fc973de0171a77f18ea00be899aca2a4f85e70
@@ -12872,6 +12915,7 @@ __metadata:
     "@backstage-community/plugin-announcements-backend": "npm:^0.15.1"
     "@backstage-community/plugin-npm-backend": "npm:^1.13.0"
     "@backstage-community/plugin-search-backend-module-announcements": "npm:^0.9.1"
+    "@backstage-community/plugin-todo-backend": "npm:^0.14.0"
     "@backstage-community/search-backend-module-adr": "npm:^0.12.0"
     "@backstage/backend-defaults": "npm:^0.13.0"
     "@backstage/cli": "npm:^0.34.4"
@@ -15852,6 +15896,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eol@npm:^0.9.1":
+  version: 0.9.1
+  resolution: "eol@npm:0.9.1"
+  checksum: 10c0/5a6654ca1961529429f4eab4473e6d9351969f25baa30de7232e862c6c5f9037fc0ff044a526fe9cdd6ae65bb1b0db7775bf1d4f342f485c10c34b1444bfb7ab
+  languageName: node
+  linkType: hard
+
 "err-code@npm:^2.0.2":
   version: 2.0.3
   resolution: "err-code@npm:2.0.3"
@@ -17593,6 +17644,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-stdin@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "get-stdin@npm:8.0.0"
+  checksum: 10c0/b71b72b83928221052f713b3b6247ebf1ceaeb4ef76937778557537fd51ad3f586c9e6a7476865022d9394b39b74eed1dc7514052fa74d80625276253571b76f
+  languageName: node
+  linkType: hard
+
 "get-stream@npm:^6.0.0":
   version: 6.0.1
   resolution: "get-stream@npm:6.0.1"
@@ -17818,7 +17876,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.0, globby@npm:^11.0.4, globby@npm:^11.1.0":
+"globby@npm:^11.0.0, globby@npm:^11.0.3, globby@npm:^11.0.4, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -20533,6 +20591,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json2xml@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "json2xml@npm:0.1.3"
+  checksum: 10c0/3cf5eda49b3cf3955bac2e1b26a147becae1782b869a57f9035b5385cc294e3bf4e40c27a08a5b8b3c1af7900c33307ffec8c5250897c0ec9935a45db9268e48
+  languageName: node
+  linkType: hard
+
 "json5@npm:^1.0.1, json5@npm:^1.0.2":
   version: 1.0.2
   resolution: "json5@npm:1.0.2"
@@ -20980,6 +21045,28 @@ __metadata:
   dependencies:
     readable-stream: "npm:^2.0.5"
   checksum: 10c0/ea4e509a5226ecfcc303ba6782cc269be8867d372b9bcbd625c88955df1987ea1a20da4643bf9270336415a398d33531ebf0d5f0d393b9283dc7c98bfcbd7b69
+  languageName: node
+  linkType: hard
+
+"leasot@npm:^12.0.0":
+  version: 12.5.0
+  resolution: "leasot@npm:12.5.0"
+  dependencies:
+    async: "npm:^3.2.0"
+    chalk: "npm:^4.1.0"
+    commander: "npm:^7.2.0"
+    eol: "npm:^0.9.1"
+    get-stdin: "npm:^8.0.0"
+    globby: "npm:^11.0.3"
+    json2xml: "npm:^0.1.3"
+    lodash: "npm:^4.17.21"
+    log-symbols: "npm:^4.1.0"
+    strip-ansi: "npm:^6.0.0"
+    text-table: "npm:^0.2.0"
+  bin:
+    leasot: bin/leasot
+    leasot-reporter: bin/leasot-reporter
+  checksum: 10c0/3c2942a2527ba1063d13eaa268e3515e7264f156c72fb3d92ceeaed1f4af7ba36a44ca0269fa9eb5e0f8f653ff85983562fe02c2e97a8b2a42fb77eca3073da8
   languageName: node
   linkType: hard
 

@@ -105,7 +105,7 @@ Wheel of names
 | Stack Overflow | planned |
 | Tech Insights | planned |
 | Tekton | planned |
-| Todo (in source code) | planned |
+| Todo (in source code) | included |
 | Topology | planned |
 | Wheel of names | planned |
 

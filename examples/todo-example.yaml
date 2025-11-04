@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: todo-example
+  annotations:
+    # TODO: this is todo to test the todo plugin ;)
+    # FIXME: this is a fixme comment to test the todo plugin ;)
+    backstage.io/source-location: url:https://github.com/christoph-jerolimov/backstage-compilation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest

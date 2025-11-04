@@ -74,4 +74,7 @@ backend.add(import('@backstage-community/plugin-search-backend-module-announceme
 // npm plugin
 backend.add(import('@backstage-community/plugin-npm-backend'));
 
+// todo
+backend.add(import('@backstage-community/plugin-todo-backend'));
+
 backend.start();
