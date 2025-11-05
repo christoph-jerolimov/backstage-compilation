@@ -76,7 +76,7 @@ Wheel of names
 | ----- | ----- | --------- | ------ |
 |    #1 | ADR | Backstage Community | included |
 |    #2 | Announcements | Backstage Community | included |
-|    #3 | Badges | Backstage Community | planned |
+|    #3 | Badges | Backstage Community | included, frontend action/dialog isn't visible so far (missing NFS support) |
 |    #4 | BitBucket | ? | planned |
 |    #5 | Bookmarks | Backstage Community feat. logonoff | included |
 |    #6 | CI/CD stats | Backstage Community feat. Spotify (?) | planned |
@@ -99,7 +99,7 @@ Wheel of names
 |   #23 | Nexus | ? | planned |
 |   #24 | Notifications | Backstage feat. Spotify | included |
 |   #25 | npm | Backstage Community feat. myself | included |
-|   #26 | Playlist | Backstage Community feat. Spotify | included but does not work yet |
+|   #26 | Playlist | Backstage Community feat. Spotify | included but does not work yet (missing NFS support) |
 |   #27 | Quay | Backstage Community feat. Red Hat | planned |
 |   #28 | RBAC | Backstage Community feat. Red Hat | planned |
 |   #29 | ServiceNow | Backstage Community feat. Red Hat | planned |

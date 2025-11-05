@@ -1,4 +1,5 @@
 import { createApp } from '@backstage/frontend-defaults';
+
 import homePlugin from '@backstage/plugin-home/alpha';
 import catalogPlugin from '@backstage/plugin-catalog/alpha';
 
