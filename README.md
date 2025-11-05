@@ -110,7 +110,7 @@ Wheel of names
 |   #34 | Tekton | Backstage Community feat. Red Hat | planned |
 |   #35 | Todo (in source code) | Backstage Community feat. Spotify | included (but shown a 404 on entities without backstage.io/source-location) |
 |   #36 | Topology | Backstage Community feat. Red Hat | planned |
-|   #37 | Wheel of names | Backstage Community | planned |
+|   #37 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | included, nav item is disabled by default |
 
 <!--
 | Adoption Insights?? | planned |

@@ -2118,6 +2118,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-wheel-of-names@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@backstage-community/plugin-wheel-of-names@npm:0.5.0"
+  dependencies:
+    "@backstage/catalog-client": "npm:^1.12.0"
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/core-components": "npm:^0.18.2"
+    "@backstage/core-plugin-api": "npm:^1.11.1"
+    "@backstage/plugin-catalog-react": "npm:^1.21.2"
+    "@backstage/theme": "npm:^0.7.0"
+    "@material-ui/core": "npm:^4.9.13"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@material-ui/lab": "npm:^4.0.0-alpha.61"
+    canvas-confetti: "npm:^1.9.3"
+    react: "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
+    react-dom: "npm:^17.0.0 || ^18.0.0"
+    react-router-dom: "npm:^6.3.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^6.3.0
+  checksum: 10c0/c447f0e783aedba00d9fa65b478411ae8b42c3b09f342b4ace520dbad12557f2d53873d2dbc099c65c23be28b24ccd3d10b3f64275337a3b5cf5777b75014112
+  languageName: node
+  linkType: hard
+
 "@backstage-community/search-backend-module-adr@npm:^0.12.0":
   version: 0.12.0
   resolution: "@backstage-community/search-backend-module-adr@npm:0.12.0"
@@ -12900,6 +12926,7 @@ __metadata:
     "@backstage-community/plugin-npm": "npm:^1.13.0"
     "@backstage-community/plugin-playlist": "npm:^0.12.0"
     "@backstage-community/plugin-todo": "npm:^0.13.0"
+    "@backstage-community/plugin-wheel-of-names": "npm:^0.5.0"
     "@backstage/cli": "npm:^0.34.4"
     "@backstage/core-compat-api": "npm:^0.5.3"
     "@backstage/core-components": "npm:^0.18.2"
@@ -14329,6 +14356,13 @@ __metadata:
   version: 1.0.30001751
   resolution: "caniuse-lite@npm:1.0.30001751"
   checksum: 10c0/c3f2d448f3569004ace160fd9379ea0def8e7a7bc6e65611baadb57d24e1f418258647a6210e46732419f5663e2356c22aa841f92449dd3849eb6471bb7ad592
+  languageName: node
+  linkType: hard
+
+"canvas-confetti@npm:^1.9.3":
+  version: 1.9.4
+  resolution: "canvas-confetti@npm:1.9.4"
+  checksum: 10c0/08f11b5fa20b365922108828d7488f9b3eac2afdf39bc478339268c1250b5215df82682d7074520a3f0f72f4728f9703bbc937dcfe793f196b44e6e8ac0b1f7b
   languageName: node
   linkType: hard
 
@@ -26812,7 +26846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.0.2":
+"react-dom@npm:^17.0.0 || ^18.0.0, react-dom@npm:^18.0.2":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -27275,7 +27309,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.0.2":
+"react@npm:^16.13.1 || ^17.0.0 || ^18.0.0, react@npm:^18.0.2":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
