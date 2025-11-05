@@ -19,6 +19,7 @@
 </div>
 <div style="text-align: center; font-weight: bold; font-size: 28px">
 <a href="">DEVTOOLS</a> -
+<a href="">PERMISSIONS with RBAC</a> -
 <a href="">ORG</a> -
 <a href="">TECHDOCS</a> -
 <a href="">API</a> -
@@ -71,49 +72,53 @@ Wheel of names
 
 <br/><br/>
 
-| Full playlist | Status |
-| ------------- | ------ |
-| ADR | included |
-| Announcements | included |
-| Badges | planned |
-| BitBucket | planned |
-| Bookmarks | included |
-| CI/CD stats | planned |
-| Code Climate | planned |
-| Code Coverage | planned |
-| CoPilot | planned |
-| DevTools | included |
-| GitHub | planned |
-| GitLab | planned |
-| Global header | unsure |
-| GoCD | planned |
-| Google Calendar | planned |
-| Grafana | planned |
-| Home | included |
-| Jenkins | planned |
-| Jira both | planned |
-| Kubernetes | planned |
-| Lighthouse | planned |
-| MCP Actions | planned |
-| MCP chat | planned |
-| Nexus | planned |
-| Notifications | included |
-| npm | included |
-| Playlist | included but does not work yet |
-| Quay | planned |
-| RBAC | planned |
-| ServiceNow | planned |
-| Sonarqube | planned |
-| Stack Overflow | planned |
-| Tech Insights | planned |
-| Tekton | planned |
-| Todo (in source code) | included |
-| Topology | planned |
-| Wheel of names | planned |
+| Track | Title | Artist(s) | Status |
+| ----- | ----- | --------- | ------ |
+|    #1 | ADR | Backstage Community | included |
+|    #2 | Announcements | Backstage Community | included |
+|    #3 | Badges | Backstage Community | planned |
+|    #4 | BitBucket | ? | planned |
+|    #5 | Bookmarks | Backstage Community feat. logonoff | included |
+|    #6 | CI/CD stats | Backstage Community feat. Spotify (?) | planned |
+|    #7 | Code Climate | Backstage Community feat. ? | planned |
+|    #8 | Code Coverage | Backstage Community feat. ? | planned |
+|    #9 | CoPilot | Backstage Community feat. ? | planned |
+|   #10 | DevTools | Backstage feat. Spotify | included |
+|   #11 | GitHub | ? | planned |
+|   #12 | GitLab | ? | planned |
+|   #13 | GoCD | ? | planned |
+|   #14 | Google Calendar | ? | planned |
+|   #15 | Grafana | ? | planned |
+|   #16 | Home | Backstage feat. Spotify | included |
+|   #17 | Jenkins | ? | planned |
+|   #18| Jira both | ? | planned |
+|   #19 | Kubernetes | Backstage feat. Spotify | planned |
+|   #20 | Lighthouse | ? | planned |
+|   #21 | MCP Actions | ? | planned |
+|   #22 | MCP Chat | Backstage Community feat. Avik | planned |
+|   #23 | Nexus | ? | planned |
+|   #24 | Notifications | Backstage feat. Spotify | included |
+|   #25 | npm | Backstage Community feat. myself | included |
+|   #26 | Playlist | Backstage Community feat. Spotify | included but does not work yet |
+|   #27 | Quay | Backstage Community feat. Red Hat | planned |
+|   #28 | RBAC | Backstage Community feat. Red Hat | planned |
+|   #29 | ServiceNow | Backstage Community feat. Red Hat | planned |
+|   #30 | Sonarqube | ? | planned |
+|   #31 | Stack Overflow | ? | planned |
+|   #32 | Tech Insights | ? | planned |
+|   #33 | Tekton | Backstage Community feat. Red Hat | planned |
+|   #34 | Todo (in source code) | Backstage Community feat. Spotify | included |
+|   #35 | Topology | Backstage Community feat. Red Hat | planned |
+|   #36 | Wheel of names | Backstage Community | planned |
 
 <!--
-| Adoption Insights | planned |
+| Adoption Insights?? | planned |
 | Bulk import?? | planned |
-| scorecard?? | planned |
+| Global header?? | unsure |
+| Scorecard?? | planned |
 | Translations?? | planned |
 -->
+
+## Missing features
+
+* Localization
