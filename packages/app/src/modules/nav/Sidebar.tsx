@@ -14,9 +14,10 @@ import { SidebarSearchModal } from '@backstage/plugin-search';
 import { NotificationsSidebarItem } from '@backstage/plugin-notifications';
 import { UserSettingsSignInAvatar, Settings as SettingsSidebarItem } from '@backstage/plugin-user-settings';
 
-import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import HomeIcon from '@material-ui/icons/Home';
+import BuildIcon from '@material-ui/icons/Build';
 
 import { SidebarLogo } from './SidebarLogo';
 
@@ -45,6 +46,7 @@ export const SidebarContent = NavContentBlueprint.make({
           </SidebarGroup>
           <SidebarSpace />
           <SidebarDivider />
+          <SidebarItem icon={BuildIcon} to="devtools" text="DevTools" />
           <SidebarGroup
             label="Settings"
             icon={<UserSettingsSignInAvatar />}

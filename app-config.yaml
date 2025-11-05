@@ -7,9 +7,11 @@ app:
 
   extensions:
     # Disable the nav items that we're manually rendering in packages/app/src/modules/nav/Sidebar.tsx
+    - nav-item:search: false
     - nav-item:home: false
     - nav-item:catalog: false
-    - nav-item:search: false
+    - nav-item:devtools: false
+    - nav-item:notifications: false # does not add a notifications item so far
     - nav-item:user-settings: false
 
     # Configure the catalog index page to be the root page, this is normally mounted on /catalog
@@ -136,6 +138,14 @@ catalog:
     # todo plugin
     - type: file
       target: ../../examples/todo-example.yaml
+
+devTools:
+  info:
+    packagePrefixes:
+      # Note that you MUST have quotes around these. The YAML won't be valid
+      # if you don't, because of the leading at-symbols.
+      - '@roadiehq/backstage-'
+      - '@spotify/backstage-'
 
 kubernetes:
   # see https://backstage.io/docs/features/kubernetes/configuration for kubernetes configuration options

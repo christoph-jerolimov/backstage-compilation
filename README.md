@@ -18,6 +18,7 @@
 <a href="">SCAFFOLDER</a>
 </div>
 <div style="text-align: center; font-weight: bold; font-size: 28px">
+<a href="">DEVTOOLS</a> -
 <a href="">ORG</a> -
 <a href="">TECHDOCS</a> -
 <a href="">API</a> -
@@ -81,6 +82,7 @@ Wheel of names
 | Code Climate | planned |
 | Code Coverage | planned |
 | CoPilot | planned |
+| DevTools | included |
 | GitHub | planned |
 | GitLab | planned |
 | Global header | unsure |
