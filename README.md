@@ -97,7 +97,7 @@ Wheel of names
 | Nexus | planned |
 | Notifications | included |
 | npm | included |
-| Playlist | planned |
+| Playlist | included but does not work yet |
 | Quay | planned |
 | RBAC | planned |
 | ServiceNow | planned |

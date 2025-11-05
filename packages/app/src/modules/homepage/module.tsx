@@ -7,19 +7,19 @@ import HomeIcon from '@material-ui/icons/Home';
 
 import { homePage } from './HomePage';
 
-const homePageRedirectExtension = PageBlueprint.make({
-  name: 'homePage',
-  params: {
-    path: '/',
-    loader: () => Promise.resolve(<Navigate to="home" />),
-  },
-});
-
 const homePageNavItem = NavItemBlueprint.make({
   params: {
     title: 'Home',
     routeRef: homePagePlugin.routes.root,
     icon: HomeIcon,
+  },
+});
+
+const homePageRedirect = PageBlueprint.make({
+  name: 'homePage',
+  params: {
+    path: '/',
+    loader: () => Promise.resolve(<Navigate to="home" />),
   },
 });
 
@@ -37,8 +37,8 @@ const customizedHomePage = createExtension({
 export const customHomePageModule = createFrontendModule({
   pluginId: 'home',
   extensions: [
-    homePageRedirectExtension,
     homePageNavItem,
+    homePageRedirect,
     customizedHomePage,
   ],
 });
