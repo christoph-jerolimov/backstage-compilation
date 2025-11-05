@@ -9,13 +9,13 @@
 import { createBackend } from '@backstage/backend-defaults';
 
 const isBackendEnabled = (plugin: string, defaultValue: boolean) => {
-  const envName = `PLUGIN_${plugin.toLocaleUpperCase('en').replaceAll(/[^a-z]/g, '_')}`;
+  const envName = `PLUGIN_${plugin.toLocaleUpperCase('en').replaceAll(/[^A-Z]/g, '_')}`;
   const envValue = process.env[envName];
   const enabled = !envValue ? defaultValue : envValue !== 'false';
   if (enabled) {
-    console.log(`Enable "${plugin}" plugin backend because env ${envName} is ${envValue}`);
+    console.log(`Enable (load) "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`);
   } else {
-    console.log(`SKIP "${plugin}" plugin backend because env ${envName} is ${envValue}`);
+    console.log(`SKIP "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`);
   }
   return enabled;
 }
@@ -99,6 +99,16 @@ if (isBackendEnabled('adr', true)) {
 if (isBackendEnabled('announcements', true)) {
   backend.add(import('@backstage-community/plugin-announcements-backend'));
   backend.add(import('@backstage-community/plugin-search-backend-module-announcements'));
+}
+
+// mcp actions plugin
+if (isBackendEnabled('mcp-actions', true)) {
+  backend.add(import('@backstage/plugin-mcp-actions-backend'));
+}
+
+// mcp chat plugin
+if (isBackendEnabled('mcp-chat', true)) {
+  backend.add(import('@backstage-community/plugin-mcp-chat-backend'));
 }
 
 // npm plugin

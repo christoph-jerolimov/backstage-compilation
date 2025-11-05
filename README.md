@@ -95,8 +95,8 @@ Wheel of names
 |   #19 | [Jira Dashboard](https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/jira-dashboard/README.md) | Axis Communications | included |
 |   #20 | Kubernetes | Backstage feat. Spotify | planned |
 |   #21 | Lighthouse | ? | planned |
-|   #22 | MCP Actions | ? | planned |
-|   #23 | MCP Chat | Backstage Community feat. Avik | planned |
+|   #22 | [MCP Actions](https://github.com/backstage/backstage/tree/master/plugins/mcp-actions-backend) | Backstage core feat. Spotify | included |
+|   #23 | [MCP Chat](https://github.com/backstage/community-plugins/tree/main/workspaces/mcp-chat) | Backstage Community feat. Lucifergene/Avik | included |
 |   #24 | Nexus | ? | planned |
 |   #25 | Notifications | Backstage feat. Spotify | included |
 |   #26 | npm | Backstage Community feat. myself | included |

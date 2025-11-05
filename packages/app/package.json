@@ -19,6 +19,7 @@
     "@backstage-community/plugin-announcements": "^0.16.0",
     "@backstage-community/plugin-badges": "^0.14.0",
     "@backstage-community/plugin-bookmarks": "^0.4.3",
+    "@backstage-community/plugin-mcp-chat": "^0.1.0",
     "@backstage-community/plugin-npm": "^1.13.0",
     "@backstage-community/plugin-playlist": "^0.12.0",
     "@backstage-community/plugin-todo": "^0.13.0",
