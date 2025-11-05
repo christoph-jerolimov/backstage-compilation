@@ -91,25 +91,26 @@ Wheel of names
 |   #15 | Grafana | ? | planned |
 |   #16 | Home | Backstage feat. Spotify | included |
 |   #17 | Jenkins | ? | planned |
-|   #18| Jira both | ? | planned |
-|   #19 | Kubernetes | Backstage feat. Spotify | planned |
-|   #20 | Lighthouse | ? | planned |
-|   #21 | MCP Actions | ? | planned |
-|   #22 | MCP Chat | Backstage Community feat. Avik | planned |
-|   #23 | Nexus | ? | planned |
-|   #24 | Notifications | Backstage feat. Spotify | included |
-|   #25 | npm | Backstage Community feat. myself | included |
-|   #26 | Playlist | Backstage Community feat. Spotify | included but does not work yet (missing NFS support) |
-|   #27 | Quay | Backstage Community feat. Red Hat | planned |
-|   #28 | RBAC | Backstage Community feat. Red Hat | planned |
-|   #29 | ServiceNow | Backstage Community feat. Red Hat | planned |
-|   #30 | Sonarqube | ? | planned |
-|   #31 | Stack Overflow | ? | planned |
-|   #32 | Tech Insights | ? | planned |
-|   #33 | Tekton | Backstage Community feat. Red Hat | planned |
-|   #34 | Todo (in source code) | Backstage Community feat. Spotify | included |
-|   #35 | Topology | Backstage Community feat. Red Hat | planned |
-|   #36 | Wheel of names | Backstage Community | planned |
+|   #18 | [Jira](https://roadie.io/backstage/plugins/jira/) | Roadie | included |
+|   #19 | [Jira Dashboard](https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/jira-dashboard/README.md) | Axis Communications | included |
+|   #20 | Kubernetes | Backstage feat. Spotify | planned |
+|   #21 | Lighthouse | ? | planned |
+|   #22 | MCP Actions | ? | planned |
+|   #23 | MCP Chat | Backstage Community feat. Avik | planned |
+|   #24 | Nexus | ? | planned |
+|   #25 | Notifications | Backstage feat. Spotify | included |
+|   #26 | npm | Backstage Community feat. myself | included |
+|   #27 | Playlist | Backstage Community feat. Spotify | included but does not work yet (missing NFS support) |
+|   #28 | Quay | Backstage Community feat. Red Hat | planned |
+|   #29 | RBAC | Backstage Community feat. Red Hat | planned |
+|   #30 | ServiceNow | Backstage Community feat. Red Hat | planned |
+|   #31 | Sonarqube | ? | planned |
+|   #32 | Stack Overflow | ? | planned |
+|   #33 | Tech Insights | ? | planned |
+|   #34 | Tekton | Backstage Community feat. Red Hat | planned |
+|   #35 | Todo (in source code) | Backstage Community feat. Spotify | included (but shown a 404 on entities without backstage.io/source-location) |
+|   #36 | Topology | Backstage Community feat. Red Hat | planned |
+|   #37 | Wheel of names | Backstage Community | planned |
 
 <!--
 | Adoption Insights?? | planned |

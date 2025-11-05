@@ -139,11 +139,18 @@ catalog:
     - type: file
       target: ../../examples/todo-example.yaml
 
+    # jira plugin
+    - type: file
+      target: ../../examples/jira-example.yaml
+
 devTools:
   info:
     packagePrefixes:
       # Note that you MUST have quotes around these. The YAML won't be valid
       # if you don't, because of the leading at-symbols.
+      - '@backstage/'
+      - '@backstage-community/'
+      - '@axis-backstage/'
       - '@roadiehq/backstage-'
       - '@spotify/backstage-'
 

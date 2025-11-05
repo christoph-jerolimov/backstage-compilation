@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jira-example
+  annotations:
+    jira/project-key: MYPROJ
+    jira.com/project-key: MYPROJ
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest

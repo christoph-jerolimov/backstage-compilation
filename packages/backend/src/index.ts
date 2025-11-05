@@ -8,6 +8,18 @@
 
 import { createBackend } from '@backstage/backend-defaults';
 
+const isBackendEnabled = (plugin: string, defaultValue: boolean) => {
+  const envName = `PLUGIN_${plugin.toLocaleUpperCase('en').replaceAll(/[^a-z]/g, '_')}`;
+  const envValue = process.env[envName];
+  const enabled = !envValue ? defaultValue : envValue !== 'false';
+  if (enabled) {
+    console.log(`Enable "${plugin}" plugin backend because env ${envName} is ${envValue}`);
+  } else {
+    console.log(`SKIP "${plugin}" plugin backend because env ${envName} is ${envValue}`);
+  }
+  return enabled;
+}
+
 const backend = createBackend();
 
 backend.add(import('@backstage/plugin-app-backend'));
@@ -55,30 +67,53 @@ backend.add(import('@backstage/plugin-search-backend-module-techdocs'));
 backend.add(import('@backstage-community/plugin-badges-backend'));
 
 // devtools plugin
-backend.add(import('@backstage/plugin-devtools-backend'));
+if (isBackendEnabled('devtools', true)) {
+  backend.add(import('@backstage/plugin-devtools-backend'));
+}
+
+// jira plugin
+if (isBackendEnabled('jira-dashboard', false)) {
+  backend.add(import('@axis-backstage/plugin-jira-dashboard-backend'));
+}
 
 // kubernetes plugin
-backend.add(import('@backstage/plugin-kubernetes-backend'));
+if (isBackendEnabled('kubernetes', false)) {
+  backend.add(import('@backstage/plugin-kubernetes-backend'));
+}
 
 // notifications and signals plugins
-backend.add(import('@backstage/plugin-notifications-backend'));
-backend.add(import('@backstage/plugin-signals-backend'));
+if (isBackendEnabled('notifications', true)) {
+  backend.add(import('@backstage/plugin-notifications-backend'));
+}
+if (isBackendEnabled('signals', true)) {
+  backend.add(import('@backstage/plugin-signals-backend'));
+}
 
 // adr plugin
-backend.add(import('@backstage-community/plugin-adr-backend'));
-backend.add(import('@backstage-community/search-backend-module-adr'));
+if (isBackendEnabled('adr', true)) {
+  backend.add(import('@backstage-community/plugin-adr-backend'));
+  backend.add(import('@backstage-community/search-backend-module-adr'));
+}
 
 // announcements plugin
-backend.add(import('@backstage-community/plugin-announcements-backend'));
-backend.add(import('@backstage-community/plugin-search-backend-module-announcements'));
+if (isBackendEnabled('announcements', true)) {
+  backend.add(import('@backstage-community/plugin-announcements-backend'));
+  backend.add(import('@backstage-community/plugin-search-backend-module-announcements'));
+}
 
 // npm plugin
-backend.add(import('@backstage-community/plugin-npm-backend'));
+if (isBackendEnabled('npm', true)) {
+  backend.add(import('@backstage-community/plugin-npm-backend'));
+}
 
 // playlist plugin
-backend.add(import('@backstage-community/plugin-playlist-backend'));
+if (isBackendEnabled('playlist', true)) {
+  backend.add(import('@backstage-community/plugin-playlist-backend'));
+}
 
 // todo plugin
-backend.add(import('@backstage-community/plugin-todo-backend'));
+if (isBackendEnabled('todo', true)) {
+  backend.add(import('@backstage-community/plugin-todo-backend'));
+}
 
 backend.start();
