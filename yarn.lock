@@ -3779,6 +3779,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage/plugin-mui-to-bui@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@backstage/plugin-mui-to-bui@npm:0.2.0"
+  dependencies:
+    "@backstage/core-compat-api": "npm:^0.5.3"
+    "@backstage/core-plugin-api": "npm:^1.11.1"
+    "@backstage/frontend-plugin-api": "npm:^0.12.1"
+    "@backstage/theme": "npm:^0.7.0"
+    "@backstage/ui": "npm:^0.8.0"
+    "@mui/material": "npm:^5.12.2"
+    "@mui/system": "npm:^5.16.14"
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^6.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/073e73297f099ae28837b005f2b652d82301bca079ab7e28f20cfc7286bd108613aa7ca0d1a671def61eb457cd7d7f70b0a7f58220861a74f3ce81b7118fe895
+  languageName: node
+  linkType: hard
+
 "@backstage/plugin-notifications-backend@npm:^0.5.11":
   version: 0.5.11
   resolution: "@backstage/plugin-notifications-backend@npm:0.5.11"
@@ -7278,7 +7301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/system@npm:5.18.0, @mui/system@npm:^5.18.0":
+"@mui/system@npm:5.18.0, @mui/system@npm:^5.16.14, @mui/system@npm:^5.18.0":
   version: 5.18.0
   resolution: "@mui/system@npm:5.18.0"
   dependencies:
@@ -13122,6 +13145,7 @@ __metadata:
     "@backstage/plugin-catalog": "npm:^1.31.4"
     "@backstage/plugin-devtools": "npm:^0.1.32"
     "@backstage/plugin-home": "npm:^0.8.13"
+    "@backstage/plugin-mui-to-bui": "npm:^0.2.0"
     "@backstage/plugin-notifications": "npm:^0.5.10"
     "@backstage/plugin-org": "npm:^0.6.45"
     "@backstage/plugin-scaffolder": "npm:^1.34.2"

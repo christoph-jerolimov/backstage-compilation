@@ -97,20 +97,21 @@ Wheel of names
 |   #21 | Lighthouse | ? | planned |
 |   #22 | [MCP Actions](https://github.com/backstage/backstage/tree/master/plugins/mcp-actions-backend) | Backstage core feat. Spotify | included |
 |   #23 | [MCP Chat](https://github.com/backstage/community-plugins/tree/main/workspaces/mcp-chat) | Backstage Community feat. Lucifergene/Avik | included |
-|   #24 | Nexus | ? | planned |
-|   #25 | Notifications | Backstage feat. Spotify | included |
-|   #26 | npm | Backstage Community feat. myself | included |
-|   #27 | Playlist | Backstage Community feat. Spotify | included but does not work yet (missing NFS support) |
-|   #28 | Quay | Backstage Community feat. Red Hat | planned |
-|   #29 | RBAC | Backstage Community feat. Red Hat | planned |
-|   #30 | ServiceNow | Backstage Community feat. Red Hat | planned |
-|   #31 | Sonarqube | ? | planned |
-|   #32 | Stack Overflow | ? | planned |
-|   #33 | Tech Insights | ? | planned |
-|   #34 | Tekton | Backstage Community feat. Red Hat | planned |
-|   #35 | Todo (in source code) | Backstage Community feat. Spotify | included (but shown a 404 on entities without backstage.io/source-location) |
-|   #36 | Topology | Backstage Community feat. Red Hat | planned |
-|   #37 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | included, nav item is disabled by default |
+|   #24 | MUI to BUI | Backstage core feat. Spotify | included, without a nav item |
+|   #25 | Nexus | ? | planned |
+|   #26 | Notifications | Backstage feat. Spotify | included |
+|   #27 | npm | Backstage Community feat. myself | included |
+|   #28 | Playlist | Backstage Community feat. Spotify | included but does not work yet (missing NFS support) |
+|   #29 | Quay | Backstage Community feat. Red Hat | planned |
+|   #30 | RBAC | Backstage Community feat. Red Hat | planned |
+|   #31 | ServiceNow | Backstage Community feat. Red Hat | planned |
+|   #32 | Sonarqube | ? | planned |
+|   #33 | Stack Overflow | ? | planned |
+|   #34 | Tech Insights | ? | planned |
+|   #35 | Tekton | Backstage Community feat. Red Hat | planned |
+|   #36 | Todo (in source code) | Backstage Community feat. Spotify | included (but shown a 404 on entities without backstage.io/source-location) |
+|   #37 | Topology | Backstage Community feat. Red Hat | planned |
+|   #38 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | included, nav item is disabled by default |
 
 <!--
 | Adoption Insights?? | planned |
