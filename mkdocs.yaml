@@ -1,0 +1,15 @@
+site_name: Best of Backstage
+site_description: A Backstage container image with an opinionated compilation of plugins
+repo_url: https://github.com/christoph-jerolimov/best-of-backstage
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - About: index.md
+  - Auth providers: auth-providers.md
+  - Plugins: plugins.md
+  - Home extensions: home-extensions.md
+  - Scaffolder actions: scaffolder-actions.md
+  - Search extensions: search-extensions.md

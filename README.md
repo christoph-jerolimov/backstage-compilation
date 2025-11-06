@@ -112,18 +112,6 @@ Wheel of names
 |    39 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | ✅ included, nav item is disabled by default |
 
 <!--
-## Home extensions
--->
-
-<!--
-## Scaffolder actions/extensions
--->
-
-<!--
-## Search extensions
--->
-
-<!--
 | Adoption Insights?? | planned |
 | Bulk import?? | planned |
 | Global header?? | unsure |
