@@ -1,7 +1,8 @@
 # 💿 ${Best\ of\ \color{#36baa2}Backstage}$
 
 <table align="center">
-<tr><td>Title:</td><td>Best of Backstage — an opinionated compilation of plugins</td></tr>
+<tr><td>Title:</td><td>Best of Backstage</td></tr>
+<tr><td>Subtitle:</td><td>A Backstage container image with an opinionated compilation of plugins</td></tr>
 <tr><td>Artists:</td><td>Various Artists</td></tr>
 <tr><td>Categories:</td><td>Compilation, Remix, Best Of, Greatest Hits, New Frontend system</td></tr>
 <tr><td>First release:</td><td>2025</td></tr>

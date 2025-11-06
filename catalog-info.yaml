@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: best-of-backstage
+  title: Best of Backstage
+  description: A Backstage container image with an opinionated compilation of plugins
+  annotations:
+    github.com/project-slug: christoph-jerolimov/best-of-backstage
+    backstage.io/source-location: url:https://github.com/christoph-jerolimov/best-of-backstage
+    # backstage.io/techdocs-ref: dir:.
+spec:
+  type: container-image
+  owner: user:christoph-jerolimov
+  lifecycle: experimental

@@ -5,7 +5,7 @@ metadata:
   annotations:
     # TODO: this is todo to test the todo plugin ;)
     # FIXME: this is a fixme comment to test the todo plugin ;)
-    backstage.io/source-location: url:https://github.com/christoph-jerolimov/backstage-compilation
+    backstage.io/source-location: url:https://github.com/christoph-jerolimov/best-of-backstage
 spec:
   type: service
   lifecycle: experimental

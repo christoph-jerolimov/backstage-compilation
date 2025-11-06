@@ -110,6 +110,9 @@ catalog:
     - allow: [Component, System, API, Resource, Location]
   locations:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
+    # own catalog-info
+    - type: file
+      target: ../../../catalog-info.yaml
 
     # scaffolder / software template
     - type: file
