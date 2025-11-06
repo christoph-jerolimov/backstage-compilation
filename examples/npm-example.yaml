@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: npm-example
+  annotations:
+    npm/package: '@backstage/catalog-model'
+    npm/show-tags: latest, next
+spec:
+  type: library
+  lifecycle: production
+  owner: user:guest

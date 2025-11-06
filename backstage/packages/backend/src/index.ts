@@ -107,7 +107,7 @@ if (isBackendEnabled('mcp-actions', true)) {
 }
 
 // mcp chat plugin
-if (isBackendEnabled('mcp-chat', true)) {
+if (isBackendEnabled('mcp-chat', false)) {
   backend.add(import('@backstage-community/plugin-mcp-chat-backend'));
 }
 
