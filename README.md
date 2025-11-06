@@ -101,14 +101,15 @@ Wheel of names
 |    28 | [Playlist](https://github.com/backstage/community-plugins/tree/main/workspaces/playlist/plugins/playlist) | Backstage Community feat. Spotify | ⚠️ included but does not work yet (missing NFS support) |
 |    29 | Quay | Backstage Community feat. Red Hat | planned |
 |    30 | RBAC | Backstage Community feat. Red Hat | planned |
-|    31 | ServiceNow | Backstage Community feat. Red Hat | planned |
-|    32 | Sonarqube | ? | planned |
-|    33 | Stack Overflow | ? | planned |
-|    34 | Tech Insights | ? | planned |
-|    35 | Tekton | Backstage Community feat. Red Hat | planned |
-|    36 | Todo (in source code) | Backstage Community feat. Spotify | ✅ included ⚠️ but shown a 404 on entities without backstage.io/source-location) |
-|    37 | Topology | Backstage Community feat. Red Hat | planned |
-|    38 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | ✅ included, nav item is disabled by default |
+|    31 | [README](https://github.com/AxisCommunications/backstage-plugins/blob/main/plugins/readme/README.md) (for catalog entities) | Axis Communications | ⚠️ included but does not work yet (missing NFS support) |
+|    32 | ServiceNow | Backstage Community feat. Red Hat | planned |
+|    33 | Sonarqube | ? | planned |
+|    34 | Stack Overflow | ? | planned |
+|    35 | Tech Insights | ? | planned |
+|    36 | Tekton | Backstage Community feat. Red Hat | planned |
+|    37 | TODO (in source code) | Backstage Community feat. Spotify | ✅ included ⚠️ but shown a 404 on entities without backstage.io/source-location) |
+|    38 | Topology | Backstage Community feat. Red Hat | planned |
+|    39 | [Wheel of names](https://github.com/backstage/community-plugins/tree/main/workspaces/wheel-of-names/plugins/wheel-of-names) | Backstage Community feat. intive | ✅ included, nav item is disabled by default |
 
 <!--
 ## Home extensions

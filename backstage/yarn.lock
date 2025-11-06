@@ -1104,6 +1104,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@axis-backstage/plugin-readme@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@axis-backstage/plugin-readme@npm:0.16.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.5"
+    "@backstage/core-components": "npm:^0.17.5"
+    "@backstage/core-plugin-api": "npm:^1.10.9"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/plugin-catalog-react": "npm:^1.20.1"
+    "@backstage/theme": "npm:^0.6.8"
+    "@mui/icons-material": "npm:^5.15.7"
+    "@mui/material": "npm:^5.15.7"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^6.3.0
+  checksum: 10c0/6f0722f6c3f4470dd9d505e0f548663fc2ab8f882f112644d0af9e403781d07083a93037ca22e4f003a4052da02c66bb532dc6cdab68bde3c578c9ff4d72929a
+  languageName: node
+  linkType: hard
+
 "@azure/abort-controller@npm:^2.0.0, @azure/abort-controller@npm:^2.1.2":
   version: 2.1.2
   resolution: "@azure/abort-controller@npm:2.1.2"
@@ -7182,7 +7204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:5.18.0, @mui/icons-material@npm:^5.15.6, @mui/icons-material@npm:^5.17.1":
+"@mui/icons-material@npm:5.18.0, @mui/icons-material@npm:^5.15.6, @mui/icons-material@npm:^5.15.7, @mui/icons-material@npm:^5.17.1":
   version: 5.18.0
   resolution: "@mui/icons-material@npm:5.18.0"
   dependencies:
@@ -13125,6 +13147,7 @@ __metadata:
   resolution: "app@workspace:packages/app"
   dependencies:
     "@axis-backstage/plugin-jira-dashboard": "npm:^2.2.1"
+    "@axis-backstage/plugin-readme": "npm:^0.16.0"
     "@backstage-community/plugin-adr": "npm:^0.17.1"
     "@backstage-community/plugin-announcements": "npm:^0.16.0"
     "@backstage-community/plugin-badges": "npm:^0.14.0"
