@@ -3783,8 +3783,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:^2.12.0":
-  version: 2.15.1
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:2.15.1"
+  version: 2.15.2
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:2.15.2"
   dependencies:
     "@backstage/backend-plugin-api": "npm:^1.8.0"
     "@backstage/plugin-scaffolder-node": "npm:^0.13.0"
@@ -3792,7 +3792,7 @@ __metadata:
     axios: "npm:^1.16.0"
     form-data: "npm:^4.0.0"
     yaml: "npm:^2.3.3"
-  checksum: 10c0/2ef1b3444adb5091712a0946937270a35a0269e06a9aa0950530209c0474eda3220f6396c3ff3cc34dffd3cc5cfc28d78d0b846660dafa2620d390e3003fbcc4
+  checksum: 10c0/2b994517895cca8002a324c23c432f9d50749d3a88564c1c59e66138ad10b9ad8d701b3bc8691be32cd824c6249e2d622c11a419193081d83cf5202376c39e7b
   languageName: node
   linkType: hard
 
