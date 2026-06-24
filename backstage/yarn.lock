@@ -3163,14 +3163,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-gcalendar@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "@backstage-community/plugin-gcalendar@npm:0.21.0"
+"@backstage-community/plugin-gcalendar@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@backstage-community/plugin-gcalendar@npm:0.22.0"
   dependencies:
-    "@backstage/core-components": "npm:^0.18.10"
-    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/core-components": "npm:^0.18.11"
+    "@backstage/core-plugin-api": "npm:^1.12.7"
     "@backstage/errors": "npm:^1.3.1"
-    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/frontend-plugin-api": "npm:^0.17.2"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@maxim_mazurok/gapi.client.calendar": "npm:^3.0.20220408"
@@ -3186,7 +3186,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/098795ec4e5206f2df98f66b4771f43fc24756bbaded030891c78523957a6b98f06600071d774db6eb7d6adab11c4dc9f3cf25ef5667b7aef43083b9aa3d8bdd
+  checksum: 10c0/e5597ebd70fd943b5ce5ead46d17a8da84c7dea928f5f8b2cf64f75d0ccf6536345290a637fcc8e4b1dc51022d25b1e6aa1c297504876b4d97b6e1a42863dfcd
   languageName: node
   linkType: hard
 
@@ -4730,12 +4730,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/core-components@npm:^0.18.10, @backstage/core-components@npm:^0.18.2, @backstage/core-components@npm:^0.18.6, @backstage/core-components@npm:^0.18.7, @backstage/core-components@npm:^0.18.8, @backstage/core-components@npm:^0.18.9":
-  version: 0.18.10
-  resolution: "@backstage/core-components@npm:0.18.10"
+"@backstage/core-components@npm:^0.18.10, @backstage/core-components@npm:^0.18.11, @backstage/core-components@npm:^0.18.2, @backstage/core-components@npm:^0.18.6, @backstage/core-components@npm:^0.18.7, @backstage/core-components@npm:^0.18.8, @backstage/core-components@npm:^0.18.9":
+  version: 0.18.11
+  resolution: "@backstage/core-components@npm:0.18.11"
   dependencies:
     "@backstage/config": "npm:^1.3.8"
-    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/core-plugin-api": "npm:^1.12.7"
     "@backstage/errors": "npm:^1.3.1"
     "@backstage/theme": "npm:^0.7.3"
     "@backstage/version-bridge": "npm:^1.0.12"
@@ -4759,7 +4759,7 @@ __metadata:
     linkifyjs: "npm:4.3.2"
     lodash: "npm:^4.17.21"
     parse5: "npm:^6.0.0"
-    qs: "npm:^6.9.4"
+    qs: "npm:^6.15.2"
     rc-progress: "npm:3.5.1"
     react-full-screen: "npm:^1.1.1"
     react-helmet: "npm:6.1.0"
@@ -4784,17 +4784,17 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/bbe1092ee5b005906c260e00b8b34f6394c395031f5f95d170d31d5c91d09022c268c67a98244e059ea65053259d369648d64069350e035c46425c1b2b4e1081
+  checksum: 10c0/2a15de08c7fc0887abedf8b5a944db500ccf79bd1af65b9b7a8fbb9606cd4a3607211d9fef45b843051cc73bd7220b4161cb41ca819381bc12d6e94d7a657412
   languageName: node
   linkType: hard
 
-"@backstage/core-plugin-api@npm:^1.11.1, @backstage/core-plugin-api@npm:^1.12.1, @backstage/core-plugin-api@npm:^1.12.2, @backstage/core-plugin-api@npm:^1.12.3, @backstage/core-plugin-api@npm:^1.12.4, @backstage/core-plugin-api@npm:^1.12.5, @backstage/core-plugin-api@npm:^1.12.6":
-  version: 1.12.6
-  resolution: "@backstage/core-plugin-api@npm:1.12.6"
+"@backstage/core-plugin-api@npm:^1.11.1, @backstage/core-plugin-api@npm:^1.12.1, @backstage/core-plugin-api@npm:^1.12.2, @backstage/core-plugin-api@npm:^1.12.3, @backstage/core-plugin-api@npm:^1.12.4, @backstage/core-plugin-api@npm:^1.12.5, @backstage/core-plugin-api@npm:^1.12.6, @backstage/core-plugin-api@npm:^1.12.7":
+  version: 1.12.7
+  resolution: "@backstage/core-plugin-api@npm:1.12.7"
   dependencies:
     "@backstage/config": "npm:^1.3.8"
     "@backstage/errors": "npm:^1.3.1"
-    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/frontend-plugin-api": "npm:^0.17.2"
     "@backstage/types": "npm:^1.2.2"
     "@backstage/version-bridge": "npm:^1.0.12"
     history: "npm:^5.0.0"
@@ -4807,7 +4807,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/a0c5b19499991aaf16429d62700989371d300ee2bbf2a0560810bd9d84d2a8533bc2ec94c7f64e39823686fd7cac23a5879020c2cec3774bee92bfab4ff8bac3
+  checksum: 10c0/44944fc010d9fcdb55a85381260abd1f54c4b3fc401dc21329da75b8c84a85a0b65b64df7f4e2d7a94d40abb68b33f294f8439b42154a52bedd0bfcc773af0ac
   languageName: node
   linkType: hard
 
@@ -5045,9 +5045,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/frontend-plugin-api@npm:^0.17.0, @backstage/frontend-plugin-api@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "@backstage/frontend-plugin-api@npm:0.17.1"
+"@backstage/frontend-plugin-api@npm:^0.17.0, @backstage/frontend-plugin-api@npm:^0.17.1, @backstage/frontend-plugin-api@npm:^0.17.2":
+  version: 0.17.2
+  resolution: "@backstage/frontend-plugin-api@npm:0.17.2"
   dependencies:
     "@backstage/config": "npm:^1.3.8"
     "@backstage/errors": "npm:^1.3.1"
@@ -5065,7 +5065,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/b79197554f2d8915ad698405e7c169e0835463060780b48bbbf34e8a3a094b576ad6d21bbe1d72994d3961db7d8654510efcf09f25f9f5c2f439a9e6c71ad68d
+  checksum: 10c0/8b18b2ce740a97148cf101b82b0ba8cdf18e171cfd9f394fe4813696edfcddeedee99e6723af1f1276d7f470fd57183e6b74ec4f7baa72f7c45ba02e55da2d81
   languageName: node
   linkType: hard
 
@@ -18012,7 +18012,7 @@ __metadata:
     "@backstage-community/plugin-entity-feedback": "npm:^0.19.0"
     "@backstage-community/plugin-entity-validation": "npm:^0.20.0"
     "@backstage-community/plugin-explore": "npm:^0.18.0"
-    "@backstage-community/plugin-gcalendar": "npm:^0.21.0"
+    "@backstage-community/plugin-gcalendar": "npm:^0.22.0"
     "@backstage-community/plugin-github-actions": "npm:^1.0.0"
     "@backstage-community/plugin-github-deployments": "npm:^1.0.0"
     "@backstage-community/plugin-github-discussions": "npm:^1.0.0"
