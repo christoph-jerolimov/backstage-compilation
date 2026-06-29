@@ -41,8 +41,6 @@ test('Sidebar', async ({ backstage }) => {
         - /url: /entity-validation
       - link "Explore":
         - /url: /explore
-      - link "Kubernetes":
-        - /url: /kubernetes
       - link "Lighthouse":
         - /url: /lighthouse
       - link "MCP Chat":

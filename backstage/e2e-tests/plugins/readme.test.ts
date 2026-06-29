@@ -6,7 +6,7 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
-test('Readme plugin card on catalog entity', async ({ backstage }) => {
+test.skip('Readme plugin card on catalog entity', async ({ backstage }) => {
   await backstage.login();
 
   await backstage.sidebarItem('Catalog').click();

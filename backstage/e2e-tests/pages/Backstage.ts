@@ -31,7 +31,9 @@ export class Backstage {
   }
 
   get content() {
-    return this.page.locator('article, .bui-Header + *, .bui-HeaderPage + *');
+    return this.page.locator(
+      'article, .bui-Header + *, .bui-HeaderPage + *, .bui-HeaderBottom + *',
+    );
   }
 
   sidebarItem(name: string) {
