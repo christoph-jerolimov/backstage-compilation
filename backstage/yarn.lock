@@ -3415,15 +3415,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-linkerd@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "@backstage-community/plugin-linkerd@npm:0.19.0"
+"@backstage-community/plugin-linkerd@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "@backstage-community/plugin-linkerd@npm:0.21.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/errors": "npm:^1.3.0"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-plugin-api": "npm:^1.12.7"
+    "@backstage/errors": "npm:^1.3.1"
+    "@backstage/frontend-plugin-api": "npm:^0.17.2"
+    "@backstage/plugin-catalog-react": "npm:^3.1.0"
     "@backstage/theme": "npm:^0.7.3"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
@@ -3432,9 +3432,9 @@ __metadata:
     react-use: "npm:^17.2.4"
     reactflow: "npm:^11.11.0"
   peerDependencies:
-    "@backstage/plugin-kubernetes": ^0.12.18
+    "@backstage/plugin-kubernetes": ^0.12.20
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/52c6730b39f83bb454c8d9dd54c552cd838cc838fd5b4be088e48c925c653967f0f5d79c5d62825e54f44014d1ca6d2758ee2362741ef77a8d9355ea1b69f09c
+  checksum: 10c0/03e78578a84f04d56f580b42c2688d32379e95422ab56eecf57ddd89f722c89a4de078b249f99c7d27e16fee5e431667b11a751a26be46cc56388ece7be6ef06
   languageName: node
   linkType: hard
 
@@ -18109,7 +18109,7 @@ __metadata:
     "@backstage-community/plugin-github-pull-requests-board": "npm:^1.0.0"
     "@backstage-community/plugin-jenkins": "npm:^0.31.0"
     "@backstage-community/plugin-lighthouse": "npm:^0.22.0"
-    "@backstage-community/plugin-linkerd": "npm:^0.19.0"
+    "@backstage-community/plugin-linkerd": "npm:^0.21.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.7.0"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
