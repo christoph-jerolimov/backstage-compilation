@@ -2530,21 +2530,21 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-acr@npm:^1.24.0":
-  version: 1.25.2
-  resolution: "@backstage-community/plugin-acr@npm:1.25.2"
+  version: 1.27.0
+  resolution: "@backstage-community/plugin-acr@npm:1.27.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-components": "npm:^0.18.9"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
-    "@backstage/theme": "npm:^0.7.3"
-    "@mui/material": "npm:^5.14.18"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-components": "npm:^0.18.11"
+    "@backstage/core-plugin-api": "npm:^1.12.7"
+    "@backstage/frontend-plugin-api": "npm:^0.17.2"
+    "@backstage/plugin-app-react": "npm:^0.2.4"
+    "@backstage/plugin-catalog-react": "npm:^3.1.0"
+    "@backstage/ui": "npm:^0.16.0"
     luxon: "npm:^3.6.1"
     react-use: "npm:^17.4.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/5013cf136a1c771638b170ac715ae8c6029bae27d6649b232054b1cfc58566f53dd3fe57bd8682ad057d92333f201e781a4341771a5a5f6fead3ab2eefc40521
+  checksum: 10c0/4dbca600cecbd056787ba3fcced86c1a2951917e8d89f8445b23d554973478bf277cac0937f73add03560a0537b6a79abd78bd0a59a5c35f36ddaeb0848b3cf6
   languageName: node
   linkType: hard
 
