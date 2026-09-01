@@ -2884,13 +2884,14 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-code-coverage@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@backstage-community/plugin-code-coverage@npm:0.14.0"
+  version: 0.14.1
+  resolution: "@backstage-community/plugin-code-coverage@npm:0.14.1"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/core-components": "npm:^0.18.8"
     "@backstage/core-plugin-api": "npm:^1.12.4"
     "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
     "@backstage/plugin-catalog-react": "npm:^2.1.0"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
@@ -2904,7 +2905,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/e6837d90ea0f990583f85cd0191e9bf7d7da4abdd001a6b680f9fdd13a92e59bc6dc427c3288ecf53eba007b1f8590b9915908e80d385c6d0474af9553cccb47
+  checksum: 10c0/9c3ad8fca84e637c60d58a3d08ab95cf7f0bdc0b8392efdcb4aa9853d2e143b200173aa079817b724631f0d0e924aeab995c66c99f0e4f43a1e3689f1f8ec125
   languageName: node
   linkType: hard
 
