@@ -18137,7 +18137,7 @@ __metadata:
     glob: "npm:^13.0.6"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
-    react-router: "npm:^7.0.0"
+    react-router: "npm:^8.0.0"
     react-router-dom: "npm:^7.0.0"
     zen-observable: "npm:^0.10.0"
   languageName: unknown
@@ -20681,6 +20681,13 @@ __metadata:
   version: 2.0.0
   resolution: "convert-source-map@npm:2.0.0"
   checksum: 10c0/8f2f7a27a1a011cc6cc88cc4da2d7d0cfa5ee0369508baae3d98c260bb3ac520691464e5bbe4ae7cdf09860c1d69ecc6f70c63c6e7c7f7e3f18ec08484dc7d9b
+  languageName: node
+  linkType: hard
+
+"cookie-es@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "cookie-es@npm:3.1.1"
+  checksum: 10c0/62cf0c325cc547b52477b351e9b5d068b3ffc74f7d143cdf7af854648dd1015fca3aed1498b355365e24b0746333f0b15688ed3a535abecc5ed0a046ae956a84
   languageName: node
   linkType: hard
 
@@ -34758,7 +34765,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:7.18.1, react-router@npm:^7.0.0":
+"react-router@npm:7.18.1":
   version: 7.18.1
   resolution: "react-router@npm:7.18.1"
   dependencies:
@@ -34771,6 +34778,21 @@ __metadata:
     react-dom:
       optional: true
   checksum: 10c0/1a559de58d656bad5565f2232e4f4fab7e9f5282dfaf95bc24f195a06e7e85b281077fe5c21ed3ff527e3d90d930447e0d0bb0f0713950d2a56ad0f0377a7d09
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^8.0.0":
+  version: 8.3.1
+  resolution: "react-router@npm:8.3.1"
+  dependencies:
+    cookie-es: "npm:^3.1.1"
+  peerDependencies:
+    react: ">=19.2.7"
+    react-dom: ">=19.2.7"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10c0/1de8feec25518f036980ecab291ab5477fb5bc1bfbda64f830bf12bd8207d46e22824108837df4bc8386c59f29b6aaa551a6f3f72771c495b456ff643f5c6de9
   languageName: node
   linkType: hard
 
